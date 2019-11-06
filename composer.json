@@ -1,5 +1,5 @@
 {
-    "name": "tchdev/monetbi",
+    "name": "tchdev/monetbil",
     "description": "This will display the payment interface of monetbil (MTN/ORANGE/EU MONEY)",
     "type": "library",
     "license": "MIT",
