@@ -27,15 +27,15 @@ class MonetbilServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/monetbil.php', 'monetbil'
+            __DIR__.'/config/monetbil.php', 'monetbil'
         );
 
         $this->publishes([
-            __DIR__.'/../config/monetbil.php' => config_path('monetbil.php'),
+            __DIR__.'/config/monetbil.php' => config_path('monetbil.php'),
         ]);
 
         $this->publishes([
-            __DIR__.'/../Resources/assets' => public_path('vendor/monetbil'),
+            __DIR__.'/Resources/assets' => public_path('vendor/monetbil'),
         ], 'public');
     }
 }
