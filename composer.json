@@ -15,15 +15,5 @@
         "psr-4": {
             "Tchdev\\Monetbil\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Tchdev\\Monetbil\\Providers\\MonetbilServiceProvider"
-            ],
-            "aliases": {
-                "Monetbil": "Tchdev\\Monetbil\\Facade"
-            }
-        }
     }
 }
