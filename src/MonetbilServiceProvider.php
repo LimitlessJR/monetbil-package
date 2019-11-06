@@ -1,6 +1,6 @@
 <?php
 
-namespace Tchdev\Monetbil\Providers;
+namespace Tchdev\Monetbil;
 
 use Illuminate\Support\ServiceProvider;
 use Tchdev\Monetbil\Facades\Monetbil;
