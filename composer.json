@@ -11,12 +11,14 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-    "autoload": {
-        "psr-4": {
-            "Tchdev\\Monetbil\\": "src/"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tchdev\\Monetbil\\MonetbilServiceProvider"
+            ]
         }
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "Tchdev\\Monetbil\\": "src/"
         }
